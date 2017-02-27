@@ -1,0 +1,193 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+body{
+  font-family:  'Source Sans Pro', sans-serif;
+  overflow-y:  hidden;
+}
+
+
+.tab_bar{
+  background: rgba(91,165,31,1);
+  background: -moz-linear-gradient(top, rgba(91,165,31,1) 0%, rgba(91,165,31,1) 1%, rgba(49,138,17,1) 40%, rgba(43,126,15,1) 69%, rgba(43,126,15,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(91,165,31,1)), color-stop(1%, rgba(91,165,31,1)), color-stop(40%, rgba(49,138,17,1)), color-stop(69%, rgba(43,126,15,1)), color-stop(100%, rgba(43,126,15,1)));
+  background: -webkit-linear-gradient(top, rgba(91,165,31,1) 0%, rgba(91,165,31,1) 1%, rgba(49,138,17,1) 40%, rgba(43,126,15,1) 69%, rgba(43,126,15,1) 100%);
+  background: -o-linear-gradient(top, rgba(91,165,31,1) 0%, rgba(91,165,31,1) 1%, rgba(49,138,17,1) 40%, rgba(43,126,15,1) 69%, rgba(43,126,15,1) 100%);
+  background: -ms-linear-gradient(top, rgba(91,165,31,1) 0%, rgba(91,165,31,1) 1%, rgba(49,138,17,1) 40%, rgba(43,126,15,1) 69%, rgba(43,126,15,1) 100%);
+  background: linear-gradient(to bottom, rgba(91,165,31,1) 0%, rgba(91,165,31,1) 1%, rgba(49,138,17,1) 40%, rgba(43,126,15,1) 69%, rgba(43,126,15,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5ba51f', endColorstr='#2b7e0f', GradientType=0 );
+}
+.ti_headbsr{
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
+.rewards{
+  width: 100%;
+  height: 140px;
+  background: rgba(30,89,8,1);
+  background: -moz-linear-gradient(top, rgba(30,89,8,1) 0%, rgba(40,112,14,1) 31%, rgba(39,120,9,1) 60%, rgba(91,165,31,1) 99%, rgba(91,165,31,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(30,89,8,1)), color-stop(31%, rgba(40,112,14,1)), color-stop(60%, rgba(39,120,9,1)), color-stop(99%, rgba(91,165,31,1)), color-stop(100%, rgba(91,165,31,1)));
+  background: -webkit-linear-gradient(top, rgba(30,89,8,1) 0%, rgba(40,112,14,1) 31%, rgba(39,120,9,1) 60%, rgba(91,165,31,1) 99%, rgba(91,165,31,1) 100%);
+  background: -o-linear-gradient(top, rgba(30,89,8,1) 0%, rgba(40,112,14,1) 31%, rgba(39,120,9,1) 60%, rgba(91,165,31,1) 99%, rgba(91,165,31,1) 100%);
+  background: -ms-linear-gradient(top, rgba(30,89,8,1) 0%, rgba(40,112,14,1) 31%, rgba(39,120,9,1) 60%, rgba(91,165,31,1) 99%, rgba(91,165,31,1) 100%);
+  background: linear-gradient(to bottom, rgba(30,89,8,1) 0%, rgba(40,112,14,1) 31%, rgba(39,120,9,1) 60%, rgba(91,165,31,1) 99%, rgba(91,165,31,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5908', endColorstr='#5ba51f', GradientType=0 );
+padding-left: 30px;
+  h1{
+    color:#6cb23f;
+    font-size:   1.4em;
+    margin-left:30px;
+  }
+  h4{line-height:5px;
+    color:#fbfbfa;
+    span{
+      color:#6cb23f;
+      font-size:   3em;
+      font-weight: bold;
+      margin-left: 30px;
+    }
+  }
+p{
+  color:#ccc;
+  font-size: 0.8em;
+}
+
+.reward{
+    position: relative;
+    left: 250;
+    top: -45px;
+    width: 70px;
+    height: 40;
+    //font-size: 1em;
+  //  border-radius: 5px;
+  }
+
+}
+.bg-container{
+  background-color: #222222;
+  height: 70%;
+}
+
+
+.quickFlip {
+    height: 216px;
+    width: 322px;
+    //margin-top: 30px;
+}
+
+
+
+.redPanel,  {
+    text-align: right;
+    border-radius: 10px;
+
+
+}
+
+.half-col {
+    width: 50%;
+    float: left;
+}
+
+/**** panels ****/
+
+.quickFlip{
+    top: 30px;
+    margin-left: 18px;
+    //position: relative;
+  //  margin-top: 30px;
+}
+
+.quickFlip .blackPanel {
+    //color: darkbrown;
+
+}
+
+.quickFlip .redPanel {
+    //background-image: url("../img/promo1stpage.png");
+    //color: #FFF;
+    background-color: #e73f31;
+
+}
+
+
+.quickFlipCta {
+    cursor: pointer;
+    //padding-top: 30px;
+
+}
+
+.form_input_num{
+  margin-top: 60px;
+
+}
+.silde_left{
+  width: 70px;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+  border-radius: 10px 0 0px 10px ;
+}
+.horizal_line{
+  width: 100%;
+  background-color: #ccc;
+  height: 40px;
+  margin-top: 30px;
+  border: 1 solid #cecece;
+  position: absolute;
+
+  -webkit-box-shadow: 1px 7px 30px -17px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 7px 30px -17px rgba(0,0,0,0.75);
+  box-shadow: 1px 7px 30px -17px rgba(0,0,0,0.75);
+
+}
+.menu_button{
+  //position: absolute;;
+  background-color: #222;
+  clear: both;
+  span{
+    width: 50px;
+  //  height: 70px;
+    margin: 0 10px 0 10px;
+    float: left;
+  }
+}
+.btn-touch_pay{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    position: absolute;
+    background-color: green;
+    left: 80%;
+    text-align: center;
+    color: #fff;
+    padding: 14px;
+}
+.text_detail_item{
+  margin-left: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  float: left;
+  margin-top: 70px;
+}
+.sign_in{
+  margin-left : 20px;
+  margin-top: 75px;
+  float: left;
+}
+.btn-chos{
+  float: left;
+  margin: 50px 50px 20px 20px;
+}
+.con_btn{
+  text-align: center;
+  float: left;
+  margin-left: 50px;
+}

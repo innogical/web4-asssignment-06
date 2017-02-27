@@ -1,0 +1,21 @@
+body{
+	background-color: #222222;
+}
+.horizal_img img{
+
+    width: 100%;
+    height: 40px;
+    margin-top: 70px;
+}
+.p_user{
+	text-align: center;
+    float: left;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.scan_now{
+
+    margin-left: 38%;
+    margin-top: 30%;
+    margin-bottom: 50px;
+}

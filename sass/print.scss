@@ -1,0 +1,55 @@
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+
+.head_befit{
+  text-align: center;
+  p{
+      font-size: 0.3em;
+
+  }
+}
+.animate_amount{
+    width: 60%;
+    height: 30px;
+    background-color: red;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.con_option{
+  float: left;
+  width: 100px;
+  height: 40px;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+.txt{
+  border-bottom: 1px solid #9dd083;
+  p{
+    font-size: 0.3em;
+    color: #ccc;
+  }
+
+}
+.con-detail{
+  text-align: center;
+  border-bottom: 1px solid #9dd083;
+  .img-gress{
+    width: 120px;
+    height: 120px;
+  }
+
+}
+.detail_txt{
+  text-align: center;
+}
+.img_id{
+    float: left;
+    width: 159px;
+    margin-left: 30px;
+  img{
+      width: 315px;
+      height: 199px;
+  }
+
+}

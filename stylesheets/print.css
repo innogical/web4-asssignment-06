@@ -1,0 +1,67 @@
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+/* line 5, ../sass/print.scss */
+.head_befit {
+  text-align: center;
+}
+/* line 7, ../sass/print.scss */
+.head_befit p {
+  font-size: 0.3em;
+}
+
+/* line 12, ../sass/print.scss */
+.animate_amount {
+  width: 60%;
+  height: 30px;
+  background-color: red;
+  margin-top: 20px;
+  margin-left: 70px;
+}
+
+/* line 19, ../sass/print.scss */
+.con_option {
+  float: left;
+  width: 100px;
+  height: 40px;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+/* line 26, ../sass/print.scss */
+.txt {
+  border-bottom: 1px solid #9dd083;
+}
+/* line 28, ../sass/print.scss */
+.txt p {
+  font-size: 0.3em;
+  color: #ccc;
+}
+
+/* line 34, ../sass/print.scss */
+.con-detail {
+  text-align: center;
+  border-bottom: 1px solid #9dd083;
+}
+/* line 37, ../sass/print.scss */
+.con-detail .img-gress {
+  width: 120px;
+  height: 120px;
+}
+
+/* line 43, ../sass/print.scss */
+.detail_txt {
+  text-align: center;
+}
+
+/* line 46, ../sass/print.scss */
+.img_id {
+  float: left;
+  width: 159px;
+  margin-left: 30px;
+}
+/* line 50, ../sass/print.scss */
+.img_id img {
+  width: 315px;
+  height: 199px;
+}

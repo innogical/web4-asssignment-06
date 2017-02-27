@@ -1,0 +1,264 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+/* line 5, ../../../../../RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 8, ../sass/screen.scss */
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  overflow-y: hidden;
+}
+
+/* line 14, ../sass/screen.scss */
+.tab_bar {
+  background: #5ba51f;
+  background: -moz-linear-gradient(top, #5ba51f 0%, #5ba51f 1%, #318a11 40%, #2b7e0f 69%, #2b7e0f 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #5ba51f), color-stop(1%, #5ba51f), color-stop(40%, #318a11), color-stop(69%, #2b7e0f), color-stop(100%, #2b7e0f));
+  background: -webkit-linear-gradient(top, #5ba51f 0%, #5ba51f 1%, #318a11 40%, #2b7e0f 69%, #2b7e0f 100%);
+  background: -o-linear-gradient(top, #5ba51f 0%, #5ba51f 1%, #318a11 40%, #2b7e0f 69%, #2b7e0f 100%);
+  background: -ms-linear-gradient(top, #5ba51f 0%, #5ba51f 1%, #318a11 40%, #2b7e0f 69%, #2b7e0f 100%);
+  background: linear-gradient(to bottom, #5ba51f 0%, #5ba51f 1%, #318a11 40%, #2b7e0f 69%, #2b7e0f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5ba51f', endColorstr='#2b7e0f', GradientType=0 );
+}
+
+/* line 24, ../sass/screen.scss */
+.ti_headbsr {
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+  margin-top: 15px;
+}
+
+/* line 30, ../sass/screen.scss */
+.rewards {
+  width: 100%;
+  height: 140px;
+  background: #1e5908;
+  background: -moz-linear-gradient(top, #1e5908 0%, #28700e 31%, #277809 60%, #5ba51f 99%, #5ba51f 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #1e5908), color-stop(31%, #28700e), color-stop(60%, #277809), color-stop(99%, #5ba51f), color-stop(100%, #5ba51f));
+  background: -webkit-linear-gradient(top, #1e5908 0%, #28700e 31%, #277809 60%, #5ba51f 99%, #5ba51f 100%);
+  background: -o-linear-gradient(top, #1e5908 0%, #28700e 31%, #277809 60%, #5ba51f 99%, #5ba51f 100%);
+  background: -ms-linear-gradient(top, #1e5908 0%, #28700e 31%, #277809 60%, #5ba51f 99%, #5ba51f 100%);
+  background: linear-gradient(to bottom, #1e5908 0%, #28700e 31%, #277809 60%, #5ba51f 99%, #5ba51f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5908', endColorstr='#5ba51f', GradientType=0 );
+  padding-left: 30px;
+}
+/* line 42, ../sass/screen.scss */
+.rewards h1 {
+  color: #6cb23f;
+  font-size: 1.4em;
+  margin-left: 30px;
+}
+/* line 47, ../sass/screen.scss */
+.rewards h4 {
+  line-height: 5px;
+  color: #fbfbfa;
+}
+/* line 49, ../sass/screen.scss */
+.rewards h4 span {
+  color: #6cb23f;
+  font-size: 3em;
+  font-weight: bold;
+  margin-left: 30px;
+}
+/* line 56, ../sass/screen.scss */
+.rewards p {
+  color: #ccc;
+  font-size: 0.8em;
+}
+/* line 61, ../sass/screen.scss */
+.rewards .reward {
+  position: relative;
+  left: 250;
+  top: -45px;
+  width: 70px;
+  height: 40;
+}
+
+/* line 72, ../sass/screen.scss */
+.bg-container {
+  background-color: #222222;
+  height: 70%;
+}
+
+/* line 78, ../sass/screen.scss */
+.quickFlip {
+  height: 216px;
+  width: 322px;
+}
+
+/* line 86, ../sass/screen.scss */
+.redPanel {
+  text-align: right;
+  border-radius: 10px;
+}
+
+/* line 93, ../sass/screen.scss */
+.half-col {
+  width: 50%;
+  float: left;
+}
+
+/**** panels ****/
+/* line 100, ../sass/screen.scss */
+.quickFlip {
+  top: 30px;
+  margin-left: 18px;
+}
+
+/* line 112, ../sass/screen.scss */
+.quickFlip .redPanel {
+  background-color: #e73f31;
+}
+
+/* line 120, ../sass/screen.scss */
+.quickFlipCta {
+  cursor: pointer;
+}
+
+/* line 126, ../sass/screen.scss */
+.form_input_num {
+  margin-top: 60px;
+}
+
+/* line 130, ../sass/screen.scss */
+.silde_left {
+  width: 70px;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+  border-radius: 10px 0 0px 10px;
+}
+
+/* line 137, ../sass/screen.scss */
+.horizal_line {
+  width: 100%;
+  background-color: #ccc;
+  height: 40px;
+  margin-top: 30px;
+  border: 1 solid #cecece;
+  position: absolute;
+  -webkit-box-shadow: 1px 7px 30px -17px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 7px 30px -17px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 7px 30px -17px rgba(0, 0, 0, 0.75);
+}
+
+/* line 150, ../sass/screen.scss */
+.menu_button {
+  background-color: #222;
+  clear: both;
+}
+/* line 154, ../sass/screen.scss */
+.menu_button span {
+  width: 50px;
+  margin: 0 10px 0 10px;
+  float: left;
+}
+
+/* line 161, ../sass/screen.scss */
+.btn-touch_pay {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  position: absolute;
+  background-color: green;
+  left: 80%;
+  text-align: center;
+  color: #fff;
+  padding: 14px;
+}
+
+/* line 172, ../sass/screen.scss */
+.text_detail_item {
+  margin-left: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  float: left;
+  margin-top: 70px;
+}
+
+/* line 180, ../sass/screen.scss */
+.sign_in {
+  margin-left: 20px;
+  margin-top: 75px;
+  float: left;
+}
+
+/* line 185, ../sass/screen.scss */
+.btn-chos {
+  float: left;
+  margin: 50px 50px 20px 20px;
+}
+
+/* line 189, ../sass/screen.scss */
+.con_btn {
+  text-align: center;
+  float: left;
+  margin-left: 50px;
+}
